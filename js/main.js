@@ -134,10 +134,7 @@ $('#yes').click(function() {
                 background: '#fff url("img/iput-bg.jpg")',
                 title: CONFIG.mess,
                 text: CONFIG.messDesc,
-                confirmButtonColor: '#83d0c9',
-                onClose: () => {
-                    window.location = CONFIG.messLink;
-                }
+                confirmButtonColor: '#83d0c9'
             })
         }
     })
